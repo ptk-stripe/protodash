@@ -10,15 +10,16 @@ import dynamic from 'next/dynamic';
 interface PrototypeSubpageProps {
   params: {
     pageName: string;
+    subpage: string;
+  };
+}
+
 // Required for static export with dynamic routes
 export async function generateStaticParams() {
   return [
     { pageName: "example-dashboard", subpage: "index" },
     // Add more prototypes here as they are created
   ];
-}
-    subpage: string;
-  };
 }
 
 export default function PrototypeSubpage({ params }: PrototypeSubpageProps) {
@@ -38,7 +39,7 @@ export default function PrototypeSubpage({ params }: PrototypeSubpageProps) {
     
     importInProgress.current = importKey;
 
-  // Dynamically import the subpage component
+    // Dynamically import the subpage component
     import(`@/prototypes/${pageName}/subpages/${subpage}`)
       .then((module) => {
         setSubpageComponent(() => module.default);
@@ -46,12 +47,12 @@ export default function PrototypeSubpage({ params }: PrototypeSubpageProps) {
         importInProgress.current = null;
       })
       .catch(() => {
-      // Fallback component for missing subpages
+        // Fallback component for missing subpages
         setSubpageComponent(() => () => (
-        <div style={{ padding: '2rem' }}>
-          <h1>Subpage Not Found</h1>
-          <p>The subpage "{subpage}" for prototype "{pageName}" could not be found.</p>
-        </div>
+          <div style={{ padding: '2rem' }}>
+            <h1>Subpage Not Found</h1>
+            <p>The subpage "{subpage}" for prototype "{pageName}" could not be found.</p>
+          </div>
         ));
         setIsLoading(false);
         importInProgress.current = null;
@@ -89,4 +90,4 @@ export default function PrototypeSubpage({ params }: PrototypeSubpageProps) {
       </FeatureFlagsProvider>
     </I18nProvider>
   );
-} 
+}

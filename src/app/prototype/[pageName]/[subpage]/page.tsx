@@ -10,6 +10,13 @@ import dynamic from 'next/dynamic';
 interface PrototypeSubpageProps {
   params: {
     pageName: string;
+// Required for static export with dynamic routes
+export async function generateStaticParams() {
+  return [
+    { pageName: "example-dashboard", subpage: "index" },
+    // Add more prototypes here as they are created
+  ];
+}
     subpage: string;
   };
 }

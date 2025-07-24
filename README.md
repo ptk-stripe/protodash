@@ -128,4 +128,4 @@ TODO in the future: introduce a user-level import in this file that isn't commit
 - `src/contexts/` - React contexts including SailUIContext
 - `src/app/` - Next.js app router pages
 - `src/types/sail.d.ts` - TypeScript definitions for Sail components
-- `src/utils/prototype-discovery.ts` - Auto-discovery system for prototypes
+- `src/utils/prototype-discovery.ts` - Auto-discovery system for prototypes# Updated at Thu Jul 24 13:46:51 CDT 2025

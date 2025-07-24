@@ -1,4 +1,3 @@
-'use client';
 
 import FakeDashboard from '@/components/FakeDashboard';
 import { FeatureFlagsProvider } from '@/contexts/FeatureFlagsContext';

@@ -131,3 +131,4 @@ TODO in the future: introduce a user-level import in this file that isn't commit
 - `src/utils/prototype-discovery.ts` - Auto-discovery system for prototypes# Updated at Thu Jul 24 13:46:51 CDT 2025
 # Force rebuild
 
+# Trigger fresh deploy after gh-pages delete

@@ -1,0 +1,159 @@
+@value neutral-50, neutral-600, purple-600 from '../../styles/vars.css';
+
+.row {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.productSection {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: top;
+  width: 200px;
+  height: calc(100vh - 80px);
+}
+
+.merchantSelection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin: 1rem 0 1rem -3px;
+  padding: 6px 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.merchantSelection:hover {
+  background-color: var(--button-hover-background);
+}
+
+.merchantSelection svg:last-child {
+  width: 9px;
+  height: 9px;
+  margin-top: 1px;
+}
+
+/* Galtee Outdoor Logo */
+.merchantSelection svg:first-child {
+  width: 22.5px;
+  height: 22.5px;
+}
+
+.labelMedium {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.15px;
+}
+
+.selectedItemContainer,
+.selectedItemContainer path {
+  color: purple-600;
+  fill: purple-600;
+}
+
+.selectedItemLabel {
+  font-weight: 600;
+}
+
+.navBar {
+  padding-left: 18px;
+  padding-right: 20px;
+  border-right: 1.3px solid neutral-50;
+  height: 100vh;
+}
+
+.navBarItem {
+  display: flex;
+  gap: 12px;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 5px 8px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+}
+
+.navBarItem:hover {
+  cursor: pointer;
+  background-color: var(--button-hover-background);
+}
+
+.navBarItem .pinIcon {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.navBarItem:hover .pinIcon {
+  opacity: 1;
+}
+
+.navBarItem .pinIcon path {
+  fill: neutral-600;
+}
+
+.row {
+  .smallSquare {
+    width: 19px;
+    height: 19px;
+    border-radius: 4px;
+    background-color: neutral-50;
+    margin: 5px;
+    margin-right: 8px;
+  }
+
+  .smallRectangle {
+    width: 80px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: neutral-50;
+    margin-right: 5px;
+  }
+}
+
+.row:nth-of-type(1) {
+  .smallSquare {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: neutral-50;
+    margin: 5px;
+    margin-right: 8px;
+  }
+
+  .smallRectangle {
+    width: 100px;
+    height: 12px;
+    border-radius: 2px;
+    background-color: neutral-50;
+    margin-right: 5px;
+  }
+}
+
+.productsLabel {
+  font-size: 12px;
+  color: neutral-600;
+  margin: 1.5rem 0 0.3rem 0.2rem;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.textBlob {
+  flex: 1;
+  height: 20px;
+  background-color: #e5e7eb;
+  border-radius: 4px;
+  min-width: 80px;
+  max-width: none;
+}

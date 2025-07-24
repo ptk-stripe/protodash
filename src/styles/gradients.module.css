@@ -1,0 +1,20 @@
+.actionForm {
+  box-shadow: 0 -50px 60px inset white;
+  background-image:
+    linear-gradient(#fffb, #fff),
+    radial-gradient(
+      ellipse at 20% 50%,
+      rgba(95, 237, 228, 0.75) 0%,
+      rgba(95, 237, 228, 0) 70%
+    ),
+    radial-gradient(
+      ellipse at 40% -70%,
+      rgba(180, 68, 254, 0.5) 0%,
+      rgba(251, 36, 223, 0) 70%
+    ),
+    radial-gradient(
+      circle at 80% 80%,
+      rgba(254, 80, 80, 0.8) 0%,
+      rgba(254, 103, 80, 0) 90%
+    );
+}

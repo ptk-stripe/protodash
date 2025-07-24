@@ -1,0 +1,474 @@
+{
+  "en": {
+    "navBar": {
+      "home": "Home",
+      "balances": "Balances",
+      "transactions": "Transactions",
+      "customers": "Customers",
+      "productCatalog": "Product catalog",
+      "shortcuts": "Shortcuts",
+      "disputes": "Disputes",
+      "tax": "Tax",
+      "reports": "Reports",
+      "products": "Products",
+      "connect": "Connect",
+      "payments": "Payments",
+      "billing": "Billing",
+      "reporting": "Reporting",
+      "more": "More",
+      "developers": "Developers"
+    },
+    "balanceSummary": {
+      "title": "Balances"
+    },
+    "actionRow": {
+      "transfer": "Transfer",
+      "send": "Send",
+      "addFunds": "Add funds",
+      "request": "Request",
+      "newCard": "New card",
+      "borrow": "Borrow",
+      "newWorkflow": "New workflow",
+      "configure": "Configure",
+      "sendSinglePayout": "Send single payout",
+      "sendMassPayout": "Send mass payout"
+    },
+    "activity": {
+      "title": "Activity",
+      "viewAll": "View all",
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "inDays": "In {days} days"
+    },
+    "cardSpend": {
+      "title": "Cards",
+      "viewAll": "View all",
+      "createCard": "Create new card",
+      "setLimit": "Set limit",
+      "ofLimit": "{currentSpend} of {limit} limit"
+    },
+    "statements": {
+      "title": "Statements",
+      "date": "June 2025",
+      "viewAll": "View all",
+      "balanceSummary": "Balance summary",
+      "payoutReconciliation": "Payout reconciliation",
+      "moreStatements": "More statements and reports"
+    },
+    "workflows": {
+      "title": "Workflows",
+      "viewAll": "View all",
+      "minimumBalances": "Minimum balances",
+      "minimumBalancesLastRun": "Ran 3 hours ago",
+      "weeklyPayouts": "Weekly payouts",
+      "weeklyPayoutsLastRun": "Ran yesterday",
+      "xero": "Xero",
+      "xeroLastRun": "Ran 5 minutes ago",
+      "newWorkflow": "New workflow"
+    },
+    "transferForm": {
+      "title": "Transfer",
+      "from": "From",
+      "to": "To",
+      "amount": "Amount",
+      "fee": "Fee",
+      "convertRow": "We'll convert",
+      "youReceive": "You'll receive",
+      "guarantee": "{fromAmount}{fromCurrency} = {toAmount}{toCurrency} until {time}",
+      "button": "Transfer",
+      "errors": {
+        "account": "Please select an account.",
+        "amount": "Please enter an amount.",
+        "amountInvalid": "Please enter a valid amount.",
+        "destinationAccount": "Please select a destination account.",
+        "insufficientFunds": "This transfer cannot be completed due to insufficient funds.",
+        "transferFailed": "Transfer failed."
+      }
+    },
+    "sendForm": {
+      "title": "Send",
+      "from": "From",
+      "to": "To",
+      "amount": "Amount",
+      "method": "Method",
+      "recipientInputPlaceholder": "Email or name",
+      "newRecipientButtonLabel": "New recipient",
+      "rtpName": "Real-time payment",
+      "rtpDescription": "Less than 30 minutes",
+      "fee": "Fee • {fee}%",
+      "feeDescription": "Fees are debited from Operations",
+      "memo": "Memo",
+      "showPreview": "Preview",
+      "hidePreview": "Hide preview",
+      "currencyInputPlaceholder": "0.00",
+      "button": "Send",
+      "errors": {
+        "account": "Please select an account.",
+        "amount": "Please enter an amount.",
+        "amountInvalid": "Please enter a valid amount.",
+        "recipient": "Please select a recipient.",
+        "insufficientFunds": "This payment cannot be completed due to insufficient funds."
+      }
+    },
+    "sendFormEmailPreview": {
+      "from": "From: Stripe",
+      "subject": "Subject: {merchantName} wants to send you money with Stripe",
+      "bodyHeader": "{merchantName} wants to send you money",
+      "body": "{merchantName} wants to send you money with Stripe. Please take a few minutes to provide your payout details and accept.",
+      "memoHeader": "Note by {merchantName}",
+      "button": "Accept money",
+      "supportSubtitle": "Questions? Contact {merchantName} at "
+    },
+    "cashAdvanceForm": {
+      "title": "Instant transfer",
+      "from": "From",
+      "to": "To",
+      "amount": "Amount",
+      "maxLimit": "Up to {maxLimit} available",
+      "fee": "Fee",
+      "youReceive": "You'll receive",
+      "button": "Instant Transfer",
+      "errors": {
+        "amount": "Please enter an amount.",
+        "amountInvalid": "Please enter a valid amount.",
+        "maxExceeded": "Please enter an amount less than {maxLimit}.",
+        "destinationAccount": "Please select a destination account.",
+        "insufficientFunds": "This transfer cannot be completed due to insufficient funds."
+      }
+    },
+    "createCardForm": {
+      "title": "Create card",
+      "fromAccount": "from {accountName}",
+      "virtualCard": "Virtual card",
+      "physicalCard": "Physical card",
+      "fromLabel": "From",
+      "cardholderLabel": "Cardholder",
+      "cardholderInputPlaceholder": "Find or add a cardholder",
+      "newCardholderLabel": "New cardholder",
+      "spendLimitLabel": "Spend limit",
+      "daily": "Daily",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "yearly": "Yearly",
+      "addSpendControl": "Add spend control",
+      "activateImmediately": "Activate immediately",
+      "createCardButton": "Create card",
+      "errors": {
+        "account": "Please select an account.",
+        "cardholder": "Please select a cardholder."
+      }
+    },
+    "accountDetailsForm": {
+      "title": "Account details",
+      "forAccount": "for {accountName}",
+      "routingNumberLabel": "Routing number",
+      "accountNumberLabel": "Account number",
+      "sortCodeLabel": "Sort code",
+      "eurAndInternational": "EUR and International",
+      "ibanLabel": "IBAN",
+      "ethWalletAddressLabel": "ETH wallet address",
+      "copied": "Copied"
+    },
+    "workflowPageContent": {
+      "title": "Minimum balances",
+      "active": "Active",
+      "saveChanges": "Save changes",
+      "disableWorkflow": "Disable workflow",
+      "editor": "Editor",
+      "runHistory": "Run history"
+    },
+    "accountBalancePicker": {
+      "destination": "Destination",
+      "empty": "No accounts found."
+    },
+    "massPayoutForm": {
+      "title": "Send mass payouts",
+      "from": "From",
+      "to": "To",
+      "recipients": "{recipientCount} recipients",
+      "sending": "Sending",
+      "fee": "Fee",
+      "payoutsValue": "Payouts",
+      "recipientsLabel": "Recipients",
+      "duplicateRowsLabel": "Duplicate rows",
+      "dragAndDrop": "Drag and drop a CSV file here or",
+      "browseFiles": "browse files",
+      "downloadTemplate": "Download CSV template",
+      "buttonBack": "Back",
+      "buttonSend": "Send",
+      "at3pmToday": "At 3pm today",
+      "at9amTomorrow": "At 9am tomorrow",
+      "customDateAndTime": "Custom date and time",
+      "buttonNext": "Next",
+      "accountInputLabel": "From"
+    },
+    "newAccountForm": {
+      "title": "New account",
+      "accountNamePlaceholder": "Account name",
+      "buttonCTA": "Create account",
+      "errors": {
+        "accountName": "Please enter an account name.",
+        "accountCreationFailed": "Account creation failed."
+      }
+    },
+    "toast": {
+      "undo": "Undo",
+      "fee": "Fee",
+      "massPayout": "{recipientCount} payouts"
+    },
+    "searchableSelect": {
+      "placeholder": "Search...",
+      "empty": "No results found",
+      "addItemButton": "Add new"
+    },
+    "currencyInput": {
+      "placeholder": "0.00",
+      "label": "Amount"
+    },
+    "balanceCard": {
+      "addFunds": "Add funds",
+      "request": "Request",
+      "newCard": "New card",
+      "newCurrencyBalance": "New currency balance",
+      "newWorkflow": "New workflow",
+      "permissions": "Permissions",
+      "delete": "Delete"
+    }
+  },
+  "fr": {
+    "navBar": {
+      "home": "Accueil",
+      "balances": "Soldes",
+      "transactions": "Transactions",
+      "customers": "Clients",
+      "productCatalog": "Catalogue de produits",
+      "shortcuts": "Raccourcis",
+      "disputes": "Litiges",
+      "tax": "Impôt",
+      "reports": "Rapports",
+      "products": "Produits",
+      "connect": "Connexion",
+      "payments": "Payments",
+      "billing": "Billing",
+      "reporting": "Reporting",
+      "more": "Plus",
+      "developers": "Développeurs"
+    },
+    "balanceSummary": {
+      "title": "Soldes"
+    },
+    "actionRow": {
+      "transfer": "Transférer",
+      "send": "Envoyer",
+      "addFunds": "Ajouter des fonds",
+      "request": "Demander",
+      "newCard": "Nouvelle carte",
+      "borrow": "Emprunter",
+      "newWorkflow": "Nouveau workflow",
+      "configure": "Configurer",
+      "sendSinglePayout": "Paiement unique",
+      "sendMassPayout": "Paiements en masse"
+    },
+    "activity": {
+      "title": "Activité",
+      "viewAll": "Voir tout",
+      "today": "Aujourd'hui",
+      "tomorrow": "Demain",
+      "inDays": "Dans {days} jours"
+    },
+    "cardSpend": {
+      "title": "Cartes",
+      "viewAll": "Voir tout",
+      "createCard": "Créer une nouvelle carte",
+      "setLimit": "Définir la limite",
+      "ofLimit": "{currentSpend} sur {limit} de limite"
+    },
+    "statements": {
+      "title": "Relevés",
+      "date": "Juin 2025",
+      "viewAll": "Voir tout",
+      "balanceSummary": "Résumé du solde",
+      "payoutReconciliation": "Rapprochement des paiements",
+      "moreStatements": "Plus de relevés et de rapports"
+    },
+    "workflows": {
+      "title": "Workflows",
+      "viewAll": "Voir tout",
+      "minimumBalances": "Soldes minimum",
+      "minimumBalancesLastRun": "Exécuté il y a 3 heures",
+      "weeklyPayouts": "Paiements hebdomadaires",
+      "weeklyPayoutsLastRun": "Exécuté hier",
+      "xero": "Xero",
+      "xeroLastRun": "Exécuté il y a 5 minutes",
+      "newWorkflow": "Nouveau workflow"
+    },
+    "transferForm": {
+      "title": "Transférer",
+      "from": "De",
+      "to": "À",
+      "amount": "Montant",
+      "fee": "Frais",
+      "convertRow": "Nous allons convertir",
+      "youReceive": "Vous recevrez",
+      "guarantee": "{fromAmount}{fromCurrency} = {toAmount}{toCurrency} jusqu'à {time}",
+      "button": "Transférer",
+      "errors": {
+        "account": "Veuillez sélectionner un compte.",
+        "amount": "Veuillez entrer un montant.",
+        "amountInvalid": "Veuillez entrer un montant valide.",
+        "destinationAccount": "Veuillez sélectionner un compte de destination.",
+        "insufficientFunds": "Ce transfert ne peut pas être complété en raison de fonds insuffisants.",
+        "transferFailed": "Le transfert a échoué."
+      }
+    },
+    "sendForm": {
+      "title": "Envoyer",
+      "from": "De",
+      "to": "À",
+      "amount": "Montant",
+      "method": "Méthode",
+      "recipientInputPlaceholder": "E-mail ou nom",
+      "newRecipientButtonLabel": "Nouveau destinataire",
+      "rtpName": "Paiement en temps réel",
+      "rtpDescription": "Moins de 30 minutes",
+      "fee": "Frais • {fee}%",
+      "feeDescription": "Les frais sont débités des opérations",
+      "memo": "Mémo",
+      "showPreview": "Aperçu",
+      "hidePreview": "Masquer l'aperçu",
+      "currencyInputPlaceholder": "0,00",
+      "button": "Envoyer",
+      "errors": {
+        "account": "Veuillez sélectionner un compte.",
+        "amount": "Veuillez entrer un montant.",
+        "amountInvalid": "Veuillez entrer un montant valide.",
+        "recipient": "Veuillez sélectionner un destinataire.",
+        "insufficientFunds": "Ce paiement ne peut pas être complété en raison de fonds insuffisants."
+      }
+    },
+    "sendFormEmailPreview": {
+      "from": "De : Stripe",
+      "subject": "Objet : {merchantName} souhaite vous envoyer de l'argent avec Stripe",
+      "bodyHeader": "{merchantName} souhaite vous envoyer de l'argent",
+      "body": "{merchantName} souhaite vous envoyer de l'argent avec Stripe. Veuillez prendre quelques minutes pour fournir vos détails de paiement et accepter.",
+      "memoHeader": "Note de {merchantName}",
+      "button": "Accepter l'argent",
+      "supportSubtitle": "Questions ? Contactez {merchantName} à "
+    },
+    "cashAdvanceForm": {
+      "title": "Transfert instantané",
+      "from": "De",
+      "to": "À",
+      "amount": "Montant",
+      "maxLimit": "Jusqu'à {maxLimit} disponible",
+      "fee": "Frais",
+      "youReceive": "Vous recevrez",
+      "button": "Transfert instantané",
+      "errors": {
+        "amount": "Veuillez entrer un montant.",
+        "amountInvalid": "Veuillez entrer un montant valide.",
+        "maxExceeded": "Veuillez entrer un montant inférieur à {maxLimit}.",
+        "destinationAccount": "Veuillez sélectionner un compte de destination.",
+        "insufficientFunds": "Ce transfert ne peut pas être complété en raison de fonds insuffisants."
+      }
+    },
+    "createCardForm": {
+      "title": "Créer une carte",
+      "fromAccount": "de {accountName}",
+      "virtualCard": "Carte virtuelle",
+      "physicalCard": "Carte physique",
+      "fromLabel": "De",
+      "cardholderLabel": "Titulaire de la carte",
+      "cardholderInputPlaceholder": "Trouver ou ajouter",
+      "newCardholderLabel": "Nouveau titulaire de carte",
+      "spendLimitLabel": "Limite de dépenses",
+      "daily": "Quotidien",
+      "monthly": "Mensuel",
+      "quarterly": "Trimestriel",
+      "yearly": "Annuel",
+      "addSpendControl": "Ajouter un contrôle des dépenses",
+      "activateImmediately": "Activer immédiatement",
+      "createCardButton": "Créer une carte",
+      "errors": {
+        "account": "Veuillez sélectionner un compte.",
+        "cardholder": "Veuillez sélectionner un titulaire de carte."
+      }
+    },
+    "accountDetailsForm": {
+      "title": "Détails du compte",
+      "forAccount": "pour {accountName}",
+      "routingNumberLabel": "Numéro de routage",
+      "accountNumberLabel": "Numéro de compte",
+      "sortCodeLabel": "Code banque",
+      "eurAndInternational": "EUR et international",
+      "ibanLabel": "IBAN",
+      "ethWalletAddressLabel": "Adresse de portefeuille ETH",
+      "copied": "Copié"
+    },
+    "workflowPageContent": {
+      "title": "Soldes minimum",
+      "active": "Actif",
+      "saveChanges": "Enregistrer les modifications",
+      "disableWorkflow": "Désactiver le workflow",
+      "editor": "Éditeur",
+      "runHistory": "Historique d'exécution"
+    },
+    "accountBalancePicker": {
+      "destination": "Destination",
+      "empty": "Aucun compte trouvé."
+    },
+    "massPayoutForm": {
+      "title": "Envoyer des paiements de masse",
+      "from": "De",
+      "to": "À",
+      "recipients": "{recipientCount} destinataires",
+      "sending": "Envoi en cours",
+      "fee": "Frais",
+      "payoutsValue": "Paiements",
+      "recipientsLabel": "Destinataires",
+      "duplicateRowsLabel": "Lignes dupliquées",
+      "dragAndDrop": "Glissez un fichier CSV ici ou",
+      "browseFiles": "parcourez",
+      "downloadTemplate": "Télécharger le modèle CSV",
+      "buttonBack": "Retour",
+      "buttonSend": "Envoyer",
+      "at3pmToday": "À 15h aujourd'hui",
+      "at9amTomorrow": "À 9h demain",
+      "customDateAndTime": "Date et heure personnalisées",
+      "buttonNext": "Suivant",
+      "accountInputLabel": "De"
+    },
+    "newAccountForm": {
+      "title": "Nouveau compte",
+      "accountNamePlaceholder": "Nom du compte",
+      "buttonCTA": "Créer un compte",
+      "errors": {
+        "accountName": "Veuillez entrer un nom de compte.",
+        "accountCreationFailed": "La création du compte a échoué."
+      }
+    },
+    "toast": {
+      "undo": "Inverser",
+      "fee": "Frais",
+      "massPayout": "{recipientCount} destinataires"
+    },
+    "searchableSelect": {
+      "placeholder": "Rechercher...",
+      "empty": "Aucun résultat trouvé",
+      "addItemButton": "Ajouter un nouveau"
+    },
+    "currencyInput": {
+      "placeholder": "0,00",
+      "label": "Montant"
+    },
+    "balanceCard": {
+      "addFunds": "Ajouter des fonds",
+      "request": "Demander",
+      "newCard": "Nouvelle carte",
+      "newCurrencyBalance": "Nouveau solde",
+      "newWorkflow": "Nouveau workflow",
+      "permissions": "Autorisations",
+      "delete": "Supprimer"
+    }
+  }
+}
